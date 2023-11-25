@@ -33,7 +33,7 @@ export default function page() {
                 <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">
                   Phoebe Caulfield
                 </h2>
-                <div className="w-12 h-1 bg-indigo-500 rounded mt-2 mb-4"></div>
+                <div className="w-12 h-1 bg-purple-500 rounded mt-2 mb-4"></div>
                 <p className="text-base">
                   Raclette knausgaard hella meggs normcore williamsburg enamel
                   pin sartorial venmo tbh hot chicken gentrify portland.

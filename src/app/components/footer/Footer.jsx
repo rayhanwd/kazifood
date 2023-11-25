@@ -11,51 +11,71 @@ export default function Footer() {
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth="2"
-              className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
+              className="w-10 h-10 text-white p-2 bg-purple-500 rounded-full"
               viewBox="0 0 24 24"
             >
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
             </svg>
-            <span className="ml-3 text-xl">Kazifood</span>
+            <span className="mx-2 text-2xl font-bold text-purple-500">Kazi</span>
+          <span className="text-2xl font-bold text-purple-600">Food</span>
           </a>
           <p className="mt-2 text-sm text-gray-500">
             Kazifood is an online food and grocery delivery platform owned by
             Berlin-based Delivery Hero.
           </p>
         </div>
-        <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+        <div className="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10">
           <div className="md:w-1/2 w-full px-4">
             <nav className="list-none mb-10">
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Get help</a>
+              <li className="text-center md:text-left">
+                <a className="text-gray-600 hover:text-gray-800">
+                  Discount and offer
+                </a>
               </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Ask a question</a>
+              <li className="text-center md:text-left">
+                <a className="text-gray-600 hover:text-gray-800">
+                  Ask a question
+                </a>
               </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Sign up to order</a>
+              <li className="text-center md:text-left">
+                <a className="text-gray-600 hover:text-gray-800">
+                  Sign up to order
+                </a>
               </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Add your restaurant</a>
+              <li className="text-center md:text-left">
+                <a className="text-gray-600 hover:text-gray-800">
+                  Add your restaurant
+                </a>
               </li>
             </nav>
           </div>
           <div className="md:w-1/2 w-full px-4 md:pl-4">
             <nav className="list-none mb-10">
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">restaurant near me</a>
+              <li className="text-center md:text-left">
+                <a className="text-gray-600 hover:text-gray-800">
+                  restaurant near me
+                </a>
               </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">Visit all citites</a>
+              <li className="text-center md:text-left">
+                <a className="text-gray-600 hover:text-gray-800">
+                  Visit all citites
+                </a>
               </li>
-              <li>
-                <a className="text-gray-600 hover:text-gray-800">About kazifood</a>
+              <li className="text-center md:text-left">
+                <a className="text-gray-600 hover:text-gray-800">
+                  Frequently ask question
+                </a>
+              </li>
+              <li className="text-center md:text-left">
+                <a className="text-gray-600 hover:text-gray-800">
+                  About kazifood
+                </a>
               </li>
             </nav>
           </div>
         </div>
       </div>
-      <div className="bg-gray-100">
+      <div className="bg-white">
         <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
           <p className="text-gray-500 text-sm text-center sm:text-left">
             © 2020 Kazifood —

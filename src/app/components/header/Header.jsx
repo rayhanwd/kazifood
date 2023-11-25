@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Header() {
   return (
-    <header className="text-gray-600 body-font">
+    <header className="text-gray-600 body-font bg-white shadow-transparent">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row  items-start md:items-center">
         <Link
           href={"/"}
@@ -15,15 +15,16 @@ export default function Header() {
             strokeLinecap="round"
             strokeLinejoin="round"
             strokeWidth="2"
-            className="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full"
+            className="w-10 h-10 text-white p-2 bg-purple-500 rounded-full"
             viewBox="0 0 24 24"
           >
             <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
           </svg>
-          <span className="ml-3 text-xl">Kazi Food</span>
+          <span className="mx-2 text-2xl font-bold text-purple-500">Kazi</span>
+          <span className="text-2xl font-bold text-purple-600">Food</span>
         </Link>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-          <Link href={'/login'} className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 hover:bg-gray-200 rounded text-base mt-4 md:mt-0 mr-5">
+          <Link href={'/login'} className="inline-flex items-center bg-purple-500 border-0 py-1 px-3 hover:bg-purple-600 rounded text-base mt-4 md:mt-0 mr-5 text-white">
             Login
             <svg
               fill="none"
@@ -37,7 +38,7 @@ export default function Header() {
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link>
-          <Link href={'/signup'} className="inline-flex items-center bg-gray-100 border-0 py-1 px-3 hover:bg-gray-200 rounded text-base mt-4 md:mt-0 mr-5">
+          <Link href={'/signup'} className="inline-flex items-center bg-purple-500 border-0 py-1 px-3 hover:bg-purple-600 rounded text-base mt-4 md:mt-0 mr-5 text-white">
             Signup
             <svg
               fill="none"
@@ -58,7 +59,7 @@ export default function Header() {
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              className="w-6 h-6"
+              className="w-6 h-6 text-purple-500"
             >
               <path
                 strokeLinecap="round"
