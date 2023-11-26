@@ -1,21 +1,17 @@
-stages:
-  - build
-  - test
-  - deploy
+name: Push to Main and Echo
 
-build_job:
-  stage: build
-  script:
-    - echo "Building the project..."
+on:
+  push:
+    branches:
+      - main
 
-test_job:
-  stage: test
-  script:
-    - echo "Running tests..."
+jobs:
+  push_and_echo:
+    runs-on: ubuntu-latest
 
-deploy_job:
-  stage: deploy
-  script:
-    - echo "Deploying to production..."
-  only:
-    - master
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      
+      - name: Echo Text
+        run: echo "The main branch has been updated!"
