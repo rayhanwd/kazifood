@@ -1,4 +1,4 @@
-import RestaurantCard from "../restaurantCard/RestaurantCard";
+import RestaurantCard from "../../restaurants/restaurantCard/RestaurantCard";
 
 export default function NewArrival() {
   return (

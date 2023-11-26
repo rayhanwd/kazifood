@@ -1,7 +1,7 @@
-import OfferNow from "../components/offerNow/OfferNow";
-import Hero from "../components/hero/Hero";
-import NewArrival from "../components/newArrival/NewArrival";
-import OurStory from "../components/ourStory/OurStory";
+import OfferNow from "./home/offerNow/OfferNow";
+import Hero from "./home/hero/Hero";
+import NewArrival from "./home/newArrival/NewArrival";
+import OurStory from "./home/ourStory/OurStory";
 
 export default function Home() {
   return (

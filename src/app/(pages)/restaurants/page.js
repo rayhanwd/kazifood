@@ -1,4 +1,4 @@
-import RestaurantCard from "../../components/restaurantCard/RestaurantCard";
+import RestaurantCard from "./restaurantCard/RestaurantCard";
 
 export default function page() {
   return (

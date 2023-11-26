@@ -1,5 +1,4 @@
 import FoodCard from "@/app/components/foodCard/FoodCard";
-// import NewArrival from "@/app/components/newArrival/NewArrival";
 import { new_rest1 } from "@/app/images/images";
 import Image from "next/image";
 
