@@ -1,4 +1,4 @@
-name: Push to Main and Echo
+name: Hello World
 
 on:
   push:
@@ -6,12 +6,8 @@ on:
       - main
 
 jobs:
-  push_and_echo:
+  hello:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
-      
-      - name: Echo Text
-        run: echo "The main branch has been updated!"
+      - name: Say Hello
+        run: echo "Hello, World!"
