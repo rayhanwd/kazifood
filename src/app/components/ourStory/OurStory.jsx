@@ -1,5 +1,7 @@
+import Image from "next/image";
 import StoryCard from "./StoryCard";
 import data from "./data.json";
+import { story } from "@/app/images/images";
 
 export default function OurStory() {
   return (
@@ -11,11 +13,7 @@ export default function OurStory() {
         <div className="flex flex-col flex-wrap lg:py-6 -mb-10 w-full lg:text-left text-center">
           <div className="flex flex-wrap">
             <div className="lg:w-1/2 w-full mb-10 lg:mb-0 rounded-lg overflow-hidden">
-              <img
-                alt="feature"
-                className="object-cover object-center h-full w-full"
-                src="https://dummyimage.com/460x500"
-              />
+              <Image src={story} alt="banner_imge2" />
             </div>
             <div className="flex flex-col flex-wrap my-10 md:my-4 lg:w-1/2 lg:pl-12 lg:text-left text-center">
               {data.map(({ id, title, content }) => (

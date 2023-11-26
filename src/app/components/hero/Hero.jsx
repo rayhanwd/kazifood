@@ -1,3 +1,6 @@
+import { hero_image } from "@/app/images/images";
+import Image from "next/image";
+
 export default function Hero() {
   return (
     <section className="text-gray-600 body-font">
@@ -15,11 +18,12 @@ export default function Hero() {
           </button>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2">
-          <img
+          {/* <img
             className="object-cover object-center rounded"
             alt="hero"
             src="https://dummyimage.com/720x600"
-          />
+          /> */}
+          <Image src={hero_image} alt="hero_imge" />
         </div>
       </div>
     </section>
