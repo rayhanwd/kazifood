@@ -1,12 +1,11 @@
+import { new_rest } from "@/app/images/images";
+import Image from "next/image";
+
 export default function FoodCard() {
   return (
     <>
       <a className="block relative h-48 rounded overflow-hidden">
-        <img
-          alt="ecommerce"
-          className="object-cover object-center w-full h-full block"
-          src="https://dummyimage.com/420x260"
-        />
+        <Image src={new_rest} alt="card" />
       </a>
       <div className="mt-4">
         <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">

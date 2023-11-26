@@ -1,5 +1,7 @@
 import FoodCard from "@/app/components/foodCard/FoodCard";
-import NewArrival from "@/app/components/newArrival/NewArrival";
+// import NewArrival from "@/app/components/newArrival/NewArrival";
+import { new_rest1 } from "@/app/images/images";
+import Image from "next/image";
 
 export default function page() {
   return (
@@ -7,11 +9,7 @@ export default function page() {
       <div className="container px-5 py-24 mx-auto flex flex-col">
         <div className="lg:w-5/6 mx-auto">
           <div className="rounded-lg h-64 overflow-hidden">
-            <img
-              alt="content"
-              className="object-cover object-center h-full w-full"
-              src="https://dummyimage.com/1200x500"
-            />
+            <Image src={new_rest1} alt="restaurant" />
           </div>
           <div className="flex flex-col sm:flex-row mt-10">
             <div className="sm:w-1/4 text-center sm:pr-8 sm:py-8">

@@ -1,14 +1,12 @@
+import { new_rest3 } from "@/app/images/images";
+import Image from "next/image";
 import Link from "next/link";
 
 export default function RestaurantCard() {
   return (
     <Link href={`/restaurants/abc`}>
       <div className="block relative h-48 rounded overflow-hidden">
-        <img
-          alt="ecommerce"
-          className="object-cover object-center w-full h-full block"
-          src="https://dummyimage.com/420x260"
-        />
+        <Image src={new_rest3} alt="card_img" />
       </div>
       <div className="mt-4">
         <h2 className="text-gray-900 title-font text-lg font-medium">
