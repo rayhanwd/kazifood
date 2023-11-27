@@ -1,5 +1,5 @@
 "use client"
-import LoginContainer from "@/app/components/loginContainer/LoginContainer";
+import LoginContainer from "./loginContainer/LoginContainer";
 
 export default function page() {
   return (

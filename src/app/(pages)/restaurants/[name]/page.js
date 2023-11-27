@@ -7,8 +7,16 @@ export default function page() {
     <section className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto flex flex-col">
         <div className="lg:w-5/6 mx-auto">
-          <div className="rounded-lg h-64 overflow-hidden">
-            <Image src={new_rest1} alt="restaurant" />
+          <div className="rounded-lg w-full h-64 overflow-hidden">
+            <Image
+              src={new_rest1}
+              sizes="100vw"
+              style={{
+                width: "100%",
+                height: "auto",
+              }}
+              alt="restaurant"
+            />
           </div>
           <div className="flex flex-col sm:flex-row mt-10">
             <div className="sm:w-1/4 text-center sm:pr-8 sm:py-8">

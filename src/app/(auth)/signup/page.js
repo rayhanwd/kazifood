@@ -1,5 +1,5 @@
 "use client"
-import SignUpContainer from "@/app/components/signupContainer/SignUpContainer";
+import SignUpContainer from "./signupContainer/SignUpContainer";
 
 export default function page() {
   return <SignUpContainer />;
