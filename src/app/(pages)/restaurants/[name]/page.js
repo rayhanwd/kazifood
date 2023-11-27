@@ -19,7 +19,7 @@ export default function page() {
             />
           </div>
           <div className="flex flex-col sm:flex-row mt-10">
-            <div className="sm:w-1/4 text-center sm:pr-8 sm:py-8">
+            <div className="sm:w-1/4 sm:pr-8 sm:py-8">
               <div className="w-20 h-20 rounded-full inline-flex items-center justify-center bg-gray-200 text-gray-400">
                 <svg
                   fill="none"
@@ -34,7 +34,7 @@ export default function page() {
                   <circle cx="12" cy="7" r="4"></circle>
                 </svg>
               </div>
-              <div className="flex flex-col items-center text-center justify-center">
+              <div className="flex flex-col">
                 <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">
                   Phoebe Caulfield
                 </h2>
