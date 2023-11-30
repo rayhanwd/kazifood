@@ -78,7 +78,7 @@ export default function Footer() {
       <div className="bg-white">
         <div className="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
           <p className="text-gray-500 text-sm text-center sm:text-left">
-            © 2020 Kazifood —
+            © 2023 Kazifood —
             <a
               href="https://twitter.com/knyttneve"
               rel="noopener noreferrer"
