@@ -1,9 +1,11 @@
+import Link from "next/link";
+
 export default function Footer() {
   return (
     <footer className="text-gray-600 body-font">
       <div className="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
         <div className="w-68 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
-          <a className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+          <Link href={'/'} className="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
@@ -18,7 +20,7 @@ export default function Footer() {
             </svg>
             <span className="mx-2 text-2xl font-bold text-purple-500">Kazi</span>
           <span className="text-2xl font-bold text-purple-600">Food</span>
-          </a>
+          </Link>
           <p className="mt-2 text-sm text-gray-500">
             Kazifood is an online food and grocery delivery platform owned by
             Berlin-based Delivery Hero.
@@ -28,24 +30,24 @@ export default function Footer() {
           <div className="md:w-1/2 w-full px-4">
             <nav className="list-none mb-10">
               <li className="text-center md:text-left">
-                <a className="text-gray-600 hover:text-gray-800">
+                <Link href={'/discount-offer'} className="text-gray-600 hover:text-gray-800">
                   Discount and offer
-                </a>
+                </Link>
               </li>
               <li className="text-center md:text-left">
-                <a className="text-gray-600 hover:text-gray-800">
+                <Link href={'/contact-us'} className="text-gray-600 hover:text-gray-800">
                   Ask a question
-                </a>
+                </Link>
               </li>
               <li className="text-center md:text-left">
-                <a className="text-gray-600 hover:text-gray-800">
+                <Link href={'/signup'} className="text-gray-600 hover:text-gray-800">
                   Sign up to order
-                </a>
+                </Link>
               </li>
               <li className="text-center md:text-left">
-                <a className="text-gray-600 hover:text-gray-800">
+                <Link href={'/restaurant/create-new'} className="text-gray-600 hover:text-gray-800">
                   Add your restaurant
-                </a>
+                </Link>
               </li>
             </nav>
           </div>
@@ -57,19 +59,19 @@ export default function Footer() {
                 </a>
               </li>
               <li className="text-center md:text-left">
-                <a className="text-gray-600 hover:text-gray-800">
+                <Link href={'/cities'} className="text-gray-600 hover:text-gray-800">
                   Visit all citites
-                </a>
+                </Link>
               </li>
               <li className="text-center md:text-left">
-                <a className="text-gray-600 hover:text-gray-800">
+                <Link href={'/faq'} className="text-gray-600 hover:text-gray-800">
                   Frequently ask question
-                </a>
+                </Link>
               </li>
               <li className="text-center md:text-left">
-                <a className="text-gray-600 hover:text-gray-800">
+                <Link href='/about-us' className="text-gray-600 hover:text-gray-800">
                   About kazifood
-                </a>
+                </Link>
               </li>
             </nav>
           </div>

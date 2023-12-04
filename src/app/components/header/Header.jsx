@@ -24,7 +24,22 @@ export default function Header() {
           <span className="text-2xl font-bold text-purple-600">Food</span>
         </Link>
         <nav className="md:ml-auto flex flex-wrap items-center text-base justify-center">
-          <Link href={'/login'} className="inline-flex items-center bg-purple-500 border-0 py-1 px-3 hover:bg-purple-600 rounded text-base mt-4 md:mt-0 mr-5 text-white">
+          <Link
+            href={"/about-us"}
+            className="inline-flex items-center border-0 py-1 px-3  rounded text-base mt-4 md:mt-0 mr-5"
+          >
+            About us
+          </Link>
+          <Link
+            href={"/contact-us"}
+            className="inline-flex items-center border-0 py-1 px-3  rounded text-base mt-4 md:mt-0 mr-5"
+          >
+            Ask a question
+          </Link>
+          <Link
+            href={"/login"}
+            className="inline-flex items-center bg-purple-500 border-0 py-1 px-3 hover:bg-purple-600 rounded text-base mt-4 md:mt-0 mr-5 text-white"
+          >
             Login
             <svg
               fill="none"
@@ -38,7 +53,10 @@ export default function Header() {
               <path d="M5 12h14M12 5l7 7-7 7"></path>
             </svg>
           </Link>
-          <Link href={'/signup'} className="inline-flex items-center bg-purple-500 border-0 py-1 px-3 hover:bg-purple-600 rounded text-base mt-4 md:mt-0 mr-5 text-white">
+          <Link
+            href={"/signup"}
+            className="inline-flex items-center bg-purple-500 border-0 py-1 px-3 hover:bg-purple-600 rounded text-base mt-4 md:mt-0 mr-5 text-white"
+          >
             Signup
             <svg
               fill="none"
