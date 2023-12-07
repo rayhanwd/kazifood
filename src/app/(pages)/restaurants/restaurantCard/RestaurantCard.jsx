@@ -9,7 +9,7 @@ export default function RestaurantCard() {
         <Image src={new_rest3} alt="card_img" />
       </div>
       <div className="mt-4">
-        <h2 className="text-gray-900 title-font text-lg font-medium">
+        <h2 className="text-gray-900 title-font text-lg font-medium ">
           Siam Pagla Pizza Ghor
         </h2>
         <p className="mt-1">Free delivery</p>
