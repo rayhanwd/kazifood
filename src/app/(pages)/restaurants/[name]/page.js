@@ -88,7 +88,7 @@ export default function page() {
                                         <div className="flex">
                                           <button
                                             type="button"
-                                            className="font-medium text-purple-600 hover:text-purple-500"
+                                            className="font-medium text-red-600 hover:text-red-500"
                                           >
                                             Remove
                                           </button>
@@ -110,7 +110,7 @@ export default function page() {
                             </p>
                             <div className="mt-6">
                               <button
-                                className="flex items-center justify-center rounded-md border border-transparent bg-purple-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-purple-700"
+                                className="flex items-center justify-center rounded-md border border-transparent bg-red-600 px-6 py-3 text-base font-medium text-white shadow-sm hover:bg-red-700"
                               >
                                 Complete Payment
                               </button>

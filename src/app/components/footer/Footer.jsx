@@ -13,13 +13,13 @@ export default function Footer() {
               strokeLinecap="round"
               strokeLinejoin="round"
               strokeWidth="2"
-              className="w-10 h-10 text-white p-2 bg-purple-500 rounded-full"
+              className="w-10 h-10 text-white p-2 bg-red-500 rounded-full"
               viewBox="0 0 24 24"
             >
               <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
             </svg>
-            <span className="mx-2 text-2xl font-bold text-purple-500">Kazi</span>
-          <span className="text-2xl font-bold text-purple-600">Food</span>
+            <span className="mx-2 text-2xl font-bold text-red-500">Kazi</span>
+          <span className="text-2xl font-bold text-red-600">Food</span>
           </Link>
           <p className="mt-2 text-sm text-gray-500">
             Kazifood is an online food and grocery delivery platform owned by

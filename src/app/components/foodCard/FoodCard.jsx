@@ -16,7 +16,7 @@ export default function FoodCard() {
         </h2>
         <div className="flex mt-1 justify-between items-center">
           <p className="mt-1">TK 160.00</p>
-          <button className=" bg-purple-500 border-0 py-1 px-3 hover:bg-purple-600 rounded text-base text-white">Add to cart</button>
+          <button className=" bg-red-500 border-0 py-1 px-3 hover:bg-red-600 rounded text-base text-white">Add to cart</button>
         </div>
       </div>
     </>

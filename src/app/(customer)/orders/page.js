@@ -28,7 +28,7 @@ export default function Customer() {
                 <p className=" text-red-500 border-0 text-center  text-lg  ">
                   250 <span>Tk</span>
                 </p>
-                <button className="text-white bg-purple-500 border-0 py-2 px-2  focus:outline-none hover:bg-purple-600 rounded text-lg">
+                <button className="text-white bg-red-500 border-0 py-2 px-2  focus:outline-none hover:bg-red-600 rounded text-lg">
                   select items
                 </button>
               </div>

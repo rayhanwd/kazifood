@@ -19,13 +19,13 @@ export default function page() {
             <div className="flex mt-8">
               <a
                 href="#"
-                className="px-4 py-2 mr-4  uppercase bg-purple-500 border-2 border-transparent rounded-lg text-md hover:bg-purple-400"
+                className="px-4 py-2 mr-4  uppercase bg-red-500 border-2 border-transparent rounded-lg text-md hover:bg-red-400"
               >
                 Get started
               </a>
               <a
                 href="#"
-                className="px-4 py-2 text-purple-500 uppercase bg-transparent border-2 border-purple-500 rounded-lg dark: hover:bg-purple-500 hover: text-md"
+                className="px-4 py-2 text-red-500 uppercase bg-transparent border-2 border-red-500 rounded-lg dark: hover:bg-red-500 hover: text-md"
               >
                 Read more
               </a>
@@ -44,7 +44,7 @@ export default function page() {
         <div className="box-content max-w-5xl px-5 mx-auto">
           <div className="flex flex-col items-center -mx-5 md:flex-row">
             <div className="w-full px-5 mb-5 text-center md:mb-0 md:text-left">
-              <h6 className="text-xs font-semibold text-purple-800 uppercase md:text-base dark:text-gray-100">
+              <h6 className="text-xs font-semibold text-red-800 uppercase md:text-base dark:text-gray-100">
                 Opening tickets
               </h6>
               <h3 className="text-2xl font-bold  font-heading md:text-4xl">
@@ -56,7 +56,7 @@ export default function page() {
               <div className="w-full mt-4 md:w-44">
                 <button
                   type="button"
-                  className="py-2 px-4  bg-white hover:bg-gray-100 focus:ring-purple-500 focus:ring-offset-purple-200 text-purple-500  w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
+                  className="py-2 px-4  bg-white hover:bg-gray-100 focus:ring-red-500 focus:ring-offset-red-200 text-red-500  w-full transition ease-in duration-200 text-center text-base font-semibold shadow-md focus:outline-none focus:ring-2 focus:ring-offset-2  rounded-lg "
                 >
                   Early bird
                 </button>

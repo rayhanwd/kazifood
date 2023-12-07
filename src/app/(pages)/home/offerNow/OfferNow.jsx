@@ -13,10 +13,10 @@ export default function OfferNow() {
             straight to your doorstep.
           </p>
           <div className="flex md:mt-4 mt-6">
-            <button className="inline-flex text-white bg-purple-500 border-0 py-1 px-4 focus:outline-none hover:bg-purple-600 rounded">
+            <button className="inline-flex text-white bg-red-500 border-0 py-1 px-4 focus:outline-none hover:bg-red-600 rounded">
               Button
             </button>
-            <a className="text-purple-500 inline-flex items-center ml-4">
+            <a className="text-red-500 inline-flex items-center ml-4">
               Learn More
               <svg
                 fill="none"

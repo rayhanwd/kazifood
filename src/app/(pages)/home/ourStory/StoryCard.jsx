@@ -7,7 +7,7 @@ export default function StoryCard({ title, content }) {
       <p className="leading-relaxed text-base">
         {content.slice(0, 150) + "..."}
       </p>
-      <a className="mt-3 text-purple-500 inline-flex items-center">
+      <a className="mt-3 text-red-500 inline-flex items-center">
         Learn More
         <svg
           fill="none"
